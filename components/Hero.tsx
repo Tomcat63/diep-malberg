@@ -1,17 +1,16 @@
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image collage */}
-      <div className="absolute inset-0 grid grid-cols-3 grid-rows-2 gap-0.5 opacity-30">
-        {["img01", "img06", "img09", "img15", "img16", "img17"].map((img) => (
-          <div key={img} className="overflow-hidden">
-            <img src={`/images/${img}.jpg`} alt="" className="w-full h-full object-cover" />
-          </div>
-        ))}
-      </div>
+      {/* Background image */}
+      <img
+        src="/Bgrd.jpg"
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover object-center"
+      />
 
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-primary-500/80 via-primary-600/70 to-warm-900/80" />
+      {/* Overlay: darkens + tints the photo for text readability */}
+      <div className="absolute inset-0 bg-warm-900/55" />
+      <div className="absolute inset-0 bg-gradient-to-b from-primary-700/40 via-transparent to-warm-900/60" />
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-3xl mx-auto">
