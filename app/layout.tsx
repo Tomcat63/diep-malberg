@@ -14,17 +14,17 @@ export const metadata: Metadata = {
   description:
     "Compassionate, affordable assisted living in the Clairemont and UTC area. Clean home, dedicated caregivers, healthy meals, and daily activities for your loved one.",
   alternates: {
-    canonical: "https://diep-malberg.vercel.app",
+    canonical: "https://diep-malmberg.vercel.app",
   },
   robots: { index: true, follow: true },
   openGraph: {
     title: "My New Home – Lodi Gardens",
     description: "Kind care, a clean home, healthy food — assisted living in Clairemont / UTC.",
     type: "website",
-    url: "https://diep-malberg.vercel.app",
+    url: "https://diep-malmberg.vercel.app",
     images: [
       {
-        url: "https://diep-malberg.vercel.app/images/img01.jpg",
+        url: "https://diep-malmberg.vercel.app/images/img01.jpg",
         width: 1200,
         height: 800,
         alt: "My New Home – Lodi Gardens assisted living home",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "My New Home – Lodi Gardens",
     description: "Kind care, a clean home, healthy food — assisted living in Clairemont / UTC.",
-    images: ["https://diep-malberg.vercel.app/images/img01.jpg"],
+    images: ["https://diep-malmberg.vercel.app/images/img01.jpg"],
   },
 };
 

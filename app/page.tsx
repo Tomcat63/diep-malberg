@@ -14,8 +14,8 @@ const jsonLd = {
   name: "My New Home – Lodi Gardens",
   description:
     "Compassionate, affordable assisted living in the Clairemont and UTC area of San Diego.",
-  url: "https://diep-malberg.vercel.app",
-  image: "https://diep-malberg.vercel.app/images/img01.jpg",
+  url: "https://diep-malmberg.vercel.app",
+  image: "https://diep-malmberg.vercel.app/images/img01.jpg",
   address: {
     "@type": "PostalAddress",
     addressLocality: "San Diego",
